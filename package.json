@@ -11,6 +11,10 @@
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  
   "keywords": [],
   "author": "Techinfoyt",
   "license": "MIT",
@@ -47,4 +51,5 @@
     "tesseract.js": "^7.0.0",
     "whatsapp-web.js": "^1.28.0"
   }
+  
 }
