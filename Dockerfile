@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:22
 ENV PUPPETEER_SKIP_DOWNLOAD=true
 
 WORKDIR /app
