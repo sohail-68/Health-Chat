@@ -45,7 +45,7 @@ exports.register = async (req, res) => {
       password,
       emailOTP: otp,
       emailOTPExpiry: otpExpiry,
-      isEmailVerified: false
+      isEmailVerified: true
     });
 
     // Create patient record
