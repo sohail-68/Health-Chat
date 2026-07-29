@@ -44,7 +44,8 @@ exports.sendOTPEmail = async (email, otp, name) => {
     return info;
     
   } catch (error) {
-    console.error('Error sending OTP:', error);
-    throw new Error('Failed to send OTP email');
+ console.error("SMTP ERROR:", error); // Original error print karo
+    throw error; // New Error mat throw karo
+
   }
 };
