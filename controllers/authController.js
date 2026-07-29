@@ -55,7 +55,7 @@ exports.register = async (req, res) => {
     });
 
     // Send OTP via email
-    await emailService.sendOTPEmail(email, otp, name);
+    // await emailService.sendOTPEmail(email, otp, name);
 
     res.status(201).json({
       success: true,
